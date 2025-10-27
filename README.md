@@ -1,4 +1,4 @@
-# Multi-Container Application with Docker, GitHub Actions, and AWS Elastic Beanstalk.
+# Multi-Container Application with Docker, GitHub Actions, and AWS Elastic Beanstalk
 
 ## Introduction
 This project is a **multi-container application** built using **React** for the frontend, **Node/Express.js** for the backend, **Postgres** for the database, and **Redis** for caching. **Nginx** is used as a **reverse proxy and load balancer**. The primary goal is to **containerize the application using Docker**, automate the **testing and deployment pipeline with GitHub Actions**, and deploy it to **AWS Elastic Beanstalk**.
