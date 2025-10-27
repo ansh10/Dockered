@@ -11,7 +11,7 @@ The application consists of the following services:
 
 1. **Client (React):** The frontend of the application built using React.
 2. **Server (Node/Express.js):** The backend of the application built using Node.js and Express.js.
-3. **Worker (Node):** A worker service built using Node.js that listens to Redis for new values and performs the required computaions. 
+3. **Worker (Node):** A worker service built using Node.js that listens to Redis for new values and performs the required computaions.
 4. **Nginx:** A reverse proxy and load balancer that routes requests to the appropriate service.
 5. **CI/CD Pipeline:** GitHub Actions is used to automate the testing and deployment process. See the `.github/workflows` directory for the workflow files.
 
@@ -28,8 +28,8 @@ To run the application locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-    git clone https://github.com/siddharth-mavani/Multi-Docker.git
-    cd Multi-Docker
+    git clone https://github.com/ansh10/Dockered.git
+    cd Dockered
    ```
 
 2. **Build and start the containers:** `bash docker-compose -f docker-compose-dev.yml up --build`
